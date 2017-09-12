@@ -6,3 +6,5 @@ These patches extend the stock atmCurve values for Kerbal Space Program's jet en
 The repository contains a Module Manager patch for each engine, and a Microsoft Excel spreadsheet with raw thrust data. The spreadsheet has graphs to help match the measured thrust curves against the stock game's atmCurve float curves.
 
 I sampled the thrust data using the Advanced Jet Engines add-on, and changing the home world to Tellumo similar to GregroxMun's Alien Space Programs. Advanced Jet Engines simulates jet behaviour using code from NASA's EngineSim tool.
+
+To use the Module Manager patches, install a current edtion of Module Manager into your KSP installation's GameData folder, then copy the JetEngineCurveExtender folder from here to your GameData folder as well.
