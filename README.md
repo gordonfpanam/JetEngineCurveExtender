@@ -1,4 +1,4 @@
-# JetEngineCurveExtender
+# Jet Engine Curve Extender for Kerbal Space Program
 Galileo's Planet Pack has at least one world, Tellumo, with a very thick oxygen atmosphere. The pressures inhibit rocket engines, but in theory jet engines could thrive there.
 
 These patches extend the stock atmCurve values for Kerbal Space Program's jet engines. On Kerbin or Laythe in the stock game, the patches don't have any impact. In a thick, oxygen-rich world like Tellumo in Galileo's Planet Pack, they'll generate more thrust in thicker air at the expense of greater fuel consumption.
