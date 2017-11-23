@@ -1,10 +1,9 @@
-# Jet Engine Curve Extender for Kerbal Space Program
-Galileo's Planet Pack has at least one world, Tellumo, with a very thick oxygen atmosphere. The pressures inhibit rocket engines, but in theory jet engines could thrive there.
+# Stock Jet Adjustments
 
-These patches extend the stock atmCurve values for Kerbal Space Program's jet engines. On Kerbin or Laythe in the stock game, the patches don't have any impact. In a thick, oxygen-rich world like Tellumo in Galileo's Planet Pack, they'll generate more thrust in thicker air at the expense of greater fuel consumption.
+This add-on extends the stock jet engine atmCurve float curves to account for higher atmospheric densities. While not useful on its own on Kerbin or Laythe, this allows for stronger thrust on Kopernicus-generated worlds with denser, oxygenated atmospheres. This also includes parts that can gather intake air and create oxidizer, extending the air-breathing performance range of the R.A.P.I.E.R. engine and enabling air-augmented rockets, which may reduce the amount of on-board oxidizer needed.
 
-The repository contains a Module Manager patch for each engine, and a Microsoft Excel spreadsheet with raw thrust data. The spreadsheet has graphs to help match the measured thrust curves against the stock game's atmCurve float curves.
+The atmCurve extensions came from using Advanced Jet Engines on a Kopernicus-generated world named Tellumo, which has a sea-level air density exceeding twelve times that of Kerbin, and measuring the static thrust at higher air densities. The results are in the spreadsheet in this project.
 
-I sampled the thrust data using the Advanced Jet Engines add-on, and changing the home world to Tellumo similar to GregroxMun's Alien Space Programs. Advanced Jet Engines simulates jet behaviour using code from NASA's EngineSim tool.
+The air compressor parts work like industrial oxygen concentrators, which separate out nitrogen from air using a mineral sieve and varying air pressures. Of three possible oxygen separation techniques, this proved the simplest to model.
 
-To use the Module Manager patches, install a current edtion of Module Manager into your KSP installation's GameData folder, then copy the JetEngineCurveExtender folder from here to your GameData folder as well.
+To use these parts, install a current edition of Module Manager first, then copy this folder to your GameData folder. If you're using Kopernicus, you already have a supported Module Manager edition.
